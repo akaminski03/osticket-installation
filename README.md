@@ -62,3 +62,11 @@ Run IIS as an administrator, open PHP manager and then Register new PHP version.
 Inside of IIS, navigate to Sites -> Default Web Site -> osTicket. Open PHP manager, and click on Enable or disable an extension. Enable php_imap.dll, php_intl.dll, and php_opcache.dll.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/e5c4722c-af98-4074-9e5c-2ed98894585f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open HeidiSQL and create a new connection using the username "root" and the password that you chose when setting up mysql.
+</p>
+<br />
