@@ -67,7 +67,7 @@ Right click on "ost-config.php" and navigate to properties. Go to security, clic
 <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/5aa9d4dd-d65e-4001-aadd-a15730323af8" height="80%" width="80%" alt="ost-permissions2"/>
 </p>
 <p>
-Add a permission to the file by clicking add, and typing in everyone, hitting enter and clicking ok.
+Add a permission to the file by clicking add, Select a principal, typing in everyone, hitting enter and clicking ok. Then enable full control.
 </p>
 <br />
 
