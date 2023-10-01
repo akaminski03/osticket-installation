@@ -43,9 +43,34 @@ Download and install all of the software from this <a href="https://drive.google
 PHP should be installed in C:\PHP
 <br>
 <br>
-The upload folder of osTicket should be extracted into C:\inetpub\wwwroot, and then the upload folder shouled be renamed to "osTicket"
+The upload folder of osTicket should be extracted into C:\inetpub\wwwroot, and then the upload folder should be renamed to "osTicket"
 </p>
 <br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/24fe61eb-0c5b-4c1b-ad88-fe19532733f5" height="80%" width="80%" alt="ost-config"/>
+</p>
+<p>
+Rename the file in C:\inetpub\wwwroot\osTicket\include called "ost-sampleconfig.php" to "ost-config.php"
+</p>
+<br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/fc4312d5-ed2f-4e37-8ce8-612c85af1e55" height="80%" width="80%" alt="ost-permissions"/>
+</p>
+<p>
+Right click on "ost-config.php" and navigate to properties. Go to security, click on advanced, and click on Disable inheritance. Choose Remove all inherited permissions from this object.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/5aa9d4dd-d65e-4001-aadd-a15730323af8" height="80%" width="80%" alt="ost-permissions2"/>
+</p>
+<p>
+Add a permission to the file by clicking add, and typing in everyone, hitting enter and clicking ok.
+</p>
+<br />
+
 
 <p>
 <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/90eba446-33ff-4d23-adc8-884dc6549254" height="80%" width="80%" alt="IIS Register PHP"/>
@@ -56,7 +81,7 @@ Run IIS as an administrator, open PHP manager and then Register new PHP version.
 <br />
 
 <p>
-<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/eb895e65-dbd5-4284-bae4-e8623a5eb481" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/eb895e65-dbd5-4284-bae4-e8623a5eb481" height="80%" width="80%" alt="PHP manager extensions"/>
 </p>
 <p>
 Inside of IIS, navigate to Sites -> Default Web Site -> osTicket. Open PHP manager, and click on Enable or disable an extension. Enable php_imap.dll, php_intl.dll, and php_opcache.dll.
@@ -64,7 +89,7 @@ Inside of IIS, navigate to Sites -> Default Web Site -> osTicket. Open PHP manag
 <br />
 
 <p>
-<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/e5c4722c-af98-4074-9e5c-2ed98894585f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/e5c4722c-af98-4074-9e5c-2ed98894585f" height="80%" width="80%" alt="HeidiSQL"/>
 </p>
 <p>
 Open HeidiSQL and create a new connection using the username "root" and the password that you chose when setting up mysql.
