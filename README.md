@@ -56,9 +56,9 @@ Run IIS as an administrator, open PHP manager and then Register new PHP version.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/eb895e65-dbd5-4284-bae4-e8623a5eb481" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Inside of IIS, navigate to Sites -> Default Web Site -> osTicket. Open PHP manager, and click on Enable or disable an extension. Enable php_imap.dll, php_intl.dll, and php_opcache.dll.
 </p>
 <br />
