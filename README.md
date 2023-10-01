@@ -39,9 +39,8 @@ Enable IIS, make sure the above boxes are checked.
 </p>
 <p>
 Download and install all of the software from this <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link. 
-</p>
+<br>
 PHP should be installed in C:\PHP
-<p>
 The upload folder of osTicket should be extracted into C:\inetpub\wwwroot, and then the upload folder shouled be renamed to "osTicket"
 </p>
 <br />
