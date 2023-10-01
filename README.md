@@ -71,6 +71,13 @@ Add a permission to the file by clicking add, Select a principal, typing in ever
 </p>
 <br />
 
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/3811574c-ba40-4700-8fe1-710175f1945e" height="80%" width="80%" alt="osTicket"/>
+</p>
+<p>
+Navigate in a web browser to localhost/osTicket/setup/
+</p>
+<br />
 
 <p>
 <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/90eba446-33ff-4d23-adc8-884dc6549254" height="80%" width="80%" alt="IIS Register PHP"/>
@@ -95,3 +102,29 @@ Inside of IIS, navigate to Sites -> Default Web Site -> osTicket. Open PHP manag
 Open HeidiSQL and create a new connection using the username "root" and the password that you chose when setting up mysql.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/3728e5a0-4888-4e99-9015-d69a6b51655a" height="80%" width="80%" alt="HeidiSQL2"/>
+</p>
+<p>
+Right click on Unnamed and create a new database, name it osTicket.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/38e4f321-f9ac-4921-bc5b-3645f74497e3" height="80%" width="80%" alt="osTicket install"/>
+</p>
+<p>
+Finish setting up osTicket, using osTicket for the field "MySQL Database:" and the same login that you used for HeidiSQL in the next two boxes. Click install.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/bfa6f9c2-ab2b-4b68-8500-c8ee5f463ed5" height="80%" width="80%" alt="Delete Setup"/>
+</p>
+<p>
+Navigate back to C:\inetpub\wwwroot\osTicket, and delete the folder called "setup"
+</p>
+<br />
+
+
