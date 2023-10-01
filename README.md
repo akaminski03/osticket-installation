@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/7d988c4f-53b2-4d24-9bd4-1527c06aeacf" height="80%" width="80%" alt="IIS-2"/>
 <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/4501a614-0a25-4aab-b636-c1675866633d" height="80%" width="80%" alt="IIS-3"/>
 <p>
-Enable IIS 
+Enable IIS, make sure the above boxes are checked.
 </p>
 <br />
 
@@ -40,7 +40,7 @@ Enable IIS
   <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/90210807-086f-4b98-a3b7-b6d7145676a8" height="80%" width="80%" alt="Installations"/>
 </p>
 <p>
-Download and install all of the software from this <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link 
+Download and install all of the software from this <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link. 
 PHP should be installed in C:\PHP
 </p>
 <br />
