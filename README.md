@@ -43,6 +43,7 @@ Download and install all of the software from this <a href="https://drive.google
 <p>
 PHP should be installed in C:\PHP
 <br>
+<br>
 The upload folder of osTicket should be extracted into C:\inetpub\wwwroot, and then the upload folder shouled be renamed to "osTicket"
 </p>
 <br />
