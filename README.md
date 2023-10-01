@@ -136,5 +136,13 @@ Navigate back to C:\inetpub\wwwroot\osTicket\include, right click the file "ost-
 </p>
 <br />
 
+<p>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/55fa7395-1c68-486d-8f30-b23591806ebf" height="80%" width="80%" alt="Reset permissions"/>
+</p>
+<p>
+Finally, navigate to localhost/osTicket/scp/index.php, and login using the information that was created when setting up osTicket. 
+</p>
+<br />
+
 
 
