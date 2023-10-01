@@ -5,7 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -49,7 +48,7 @@ The upload folder of osTicket should be extracted into C:\inetpub\wwwroot, and t
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/90eba446-33ff-4d23-adc8-884dc6549254" height="80%" width="80%" alt="IIS Register PHP"/>
 </p>
 <p>
 Run IIS as an administrator, open PHP manager and then Register new PHP version. Use the version of PHP installed in C:\PHP
