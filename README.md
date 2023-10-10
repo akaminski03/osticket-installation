@@ -126,7 +126,6 @@ Finish setting up osTicket, using osTicket for the field "MySQL Database:" and t
 Navigate back to C:\inetpub\wwwroot\osTicket, and delete the folder called "setup".
 </p>
 <br />
-![image](https://github.com/akaminski03/osticket-prereqs/assets/65532146/3037b5c1-b3ac-4567-829b-e095701a4f72)
 
 <p>
 <img src="https://github.com/akaminski03/osticket-prereqs/assets/65532146/bfa6f9c2-ab2b-4b68-8500-c8ee5f463ed5" height="80%" width="80%" alt="Reset permissions"/>
